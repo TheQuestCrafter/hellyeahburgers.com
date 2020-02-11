@@ -6,13 +6,27 @@
 
 body,
 html {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Sriracha', sans-serif;
 }
 
 body{
     /*background-image: url('background.jpg');*/
     background-color: white;
-    margin-top: 100px;
+    margin-top: 2em;
+}
+
+h1{
+    font-family: 'Damion', cursive;
+    font-size:  5rem;
+}
+
+h2{   
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
 }
 
 div{
@@ -29,13 +43,11 @@ footer{
 /*SECTIONS*/
 
 .burger-container{
-    max-width: 50%;
+    max-width: 40%;
     padding-left: 30px;
     padding-right: 30px;
-    border: 1px solid black;
+    border: 1px solid red;
     margin: auto;
-
-    box-shadow: rgba(0, 0, 0, .5) 3px 5px 10px 3px;
 }
 
 .title-section{
@@ -46,6 +58,7 @@ footer{
 .nav-section{
     border: 1px solid red;
     text-align: center;
+    font-family: 'Sriracha', sans-serif;
 }
 
 .video-section{
@@ -54,8 +67,22 @@ footer{
 }
 
 .gif-section{
+    border: 1px solid green; 
+}
+
+.gif-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    /*height: 200px;*/
     border: 1px solid red;
 }
+  
+  .gif-row>div {
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+  }
 
 .description-section{
     border: 1px solid red;
