@@ -6,13 +6,18 @@
 
 body,
 html {
-	font-family: 'Sriracha', sans-serif;
+    font-family: 'Sriracha', sans-serif;
+    color: black;
 }
 
 body{
     /*background-image: url('background.jpg');*/
-    background-color: white;
     margin-top: 2em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 h1{
@@ -51,23 +56,21 @@ footer{
 }
 
 .title-section{
-    border: 1px solid red;
+    padding-top: 30px;
     text-align: center;
 }
 
 .nav-section{
-    border: 1px solid red;
     text-align: center;
     font-family: 'Sriracha', sans-serif;
 }
 
 .video-section{
-    border: 1px solid red;
     text-align: center;
 }
 
 .gif-section{
-    border: 1px solid green; 
+    
 }
 
 .gif-row{
@@ -88,15 +91,37 @@ footer{
     border: 1px solid red;
 }
 
+.social-section{
+}
+
 /*Div Shapes*/
 
 .circle {
 	border-radius: 50%
   }
 
-.rounded-corners {
+.patty {
 	-moz-border-radius: 20px;
    -webkit-border-radius: 20px;
    -khtml-border-radius: 20px;
    border-radius: 20px;
+
+   background-color: rgb(138, 99, 51);
+   border: 3px solid black;
+}
+
+.top-bun{
+    display: block;
+    height: 200px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 30% 30%;
+    background-color: #F2A950;
+    border: 3px solid black;
+}
+
+.bottom-bun{
+    display: block;
+    height: 200px;
+    border-radius: 60% 60% 20% 20% / 30% 30% 50% 50%;
+    background-color: #F2A950;
+    border: 3px solid black;
 }
