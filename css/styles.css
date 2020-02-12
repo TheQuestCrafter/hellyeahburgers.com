@@ -19,6 +19,14 @@ p{
     padding-left: 1em;
 }
 
+img{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 h1{
     font-family: 'Damion', cursive;
     font-size:  5rem;
@@ -30,10 +38,11 @@ h2{
 }
 
 h3{
+    font-size: 1rem;
     text-align: center;
 }
 
-div{
+div .patty, div .top-bun{
     margin-bottom: 20px;
 }
 
@@ -41,14 +50,12 @@ footer{
     margin: auto;
     margin-top: 1em;
     text-align: center;
-    border: 1px solid red;
 }
 
 /*SECTIONS*/
 
 .burger-container{
     max-width: 40%;
-    border: 1px solid red;
     margin: auto;
 }
 
@@ -95,12 +102,12 @@ footer{
   
   .gif-row>div {
     border: 1px solid blue;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
   }
 
 .description-section{
-    border: 1px solid red;
+    
 }
 
 .social-section{
