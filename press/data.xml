@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <company>
-  <title>Hell Yeah, Burgers!</title>
+  <title>Hell Yeah, Burgers! VR</title>
   <based-in>Chicago, IL</based-in>
   <founding-date></founding-date>
-  <website>hellyeahburgers.com</website>
+  <website>http://www.hellyeahburgers.com</website>
+
   <press-contact>
-    <!-- Mail address -->
+    hellyeahburgers@gmail.com
   </press-contact>
 
   <!-- Google analytics ID: -->
   <analytics></analytics>
 
   <widgets>
-    <mailchimp>//url.us3.list-manage.com/subscribe/post?u=USER_ID&amp;id=LIST_ID</mailchimp>
+    <mailchimp>//url.us3.list-manage.com/subscribe/post?u=gS3iNj&amp;id=gS3iNj</mailchimp>
     <!--<itch>27992</itch>-->
   </widgets>
-
-  <phone></phone>
-  <address>
-    <line>
-      <!-- Street -->
-    </line>
-    <line>
-      <!-- City -->
-    </line>
-    <line>
-      <!-- Country -->
-    </line>
-  </address>
 
   <socials>
     <social>
@@ -39,7 +27,7 @@
     <social>
       <name>Instagram</name>
       <link>
-        <!-- URL starting with http or https -->
+        https://www.instagram.com/hellyeahburgers
       </link>
     </social>
   </socials>
@@ -67,31 +55,12 @@
       <youtube>
         <!-- Video ID only, not the full URL -->
       </youtube>
-      <vimeo>
-        <!-- Video ID only, not the full URL -->
-      </vimeo>
     </trailer>
   </trailers>
 
-  <awards>
-    <award>
-      <description></description>
-      <info></info>
-    </award>
-  </awards>
-
-  <quotes>
-    <quote>
-      <description></description>
-      <name></name>
-      <website></website>
-      <link></link>
-    </quote>
-  </quotes>
-
   <additionals>
     <additional>
-      <title></title>
+      <title>GitHub</title>
       <description></description>
       <link></link>
     </additional>
