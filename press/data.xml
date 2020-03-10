@@ -12,11 +12,6 @@
   <!-- Google analytics ID: -->
   <analytics></analytics>
 
-  <widgets>
-    <mailchimp>//url.us3.list-manage.com/subscribe/post?u=gS3iNj&amp;id=gS3iNj</mailchimp>
-    <!--<itch>27992</itch>-->
-  </widgets>
-
   <socials>
     <social>
       <name>Twitter</name>
@@ -57,6 +52,11 @@
       </youtube>
     </trailer>
   </trailers>
+
+ <widgets>
+    <mailchimp>http://eepurl.com/gS3iNj&amp;id=gS3iNj</mailchimp>
+    <!--<itch>27992</itch>-->
+  </widgets>
 
   <additionals>
     <additional>
