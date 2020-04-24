@@ -12,9 +12,10 @@ html {
 
 body{
     background-image:  url('../assets/background.png');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: top;
-    background-size: 100%;
+    background-size: 105%;
+    background-attachment: fixed;
    /* background-color: white;*/
 }
 
@@ -60,6 +61,7 @@ h1{
 h2{   
     font-size: 1.5rem;
     text-align: center;
+    color: rgb(219, 200, 159);
 }
 
 h3{
@@ -74,11 +76,10 @@ div .patty, div .top-bun, div .pickles, div .lettuce, div .nav-section, div .che
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: re;
+	position: relative;
 }
 
 footer{
-    margin: auto;
     margin-top: 1em;
     text-align: center;
 }
@@ -152,6 +153,11 @@ footer{
   }
 
 .patty {
+    padding-top: 50px;
+    height: 150px;
+    background-image: url('../assets/burger/pattythin.png');
+
+    /*
 	-moz-border-radius: 20px;
    -webkit-border-radius: 20px;
    -khtml-border-radius: 20px;
@@ -159,6 +165,7 @@ footer{
 
    background-color: rgb(138, 99, 51);
    border: 3px solid black;
+   */
 }
 
 .lettuce {
@@ -183,8 +190,8 @@ footer{
 }
 
 .bottom-bun{
-
-    height: 300px;
+    
+    height: 350px;
     background-image: url('../assets/burger/bottombun.png');
     
     /*
@@ -223,16 +230,23 @@ footer{
 
 /*MEDIA QUERIES*/
 
+@media only screen 
+and (min-width : 1101px) and (max-width : 1300px){
+    body{
+        background-size: 120%;
+    }
+}
+
 /*tablet*/ 
 @media only screen 
-and (min-width : 768px) and (max-width : 1100px){
+and (min-width : 832px) and (max-width : 1100px){
 
     .burger-container{
         max-width: 90%;
     }
 
     body{
-        background-image: none, none;
+        background-image: none;
         background-color: rgb(253, 87, 87);
     }
 
@@ -240,14 +254,14 @@ and (min-width : 768px) and (max-width : 1100px){
 
 /*applies only to screens under 320px - mobile*/
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 831px){
     
     .burger-container{
         max-width: 95%;
     }
 
     body{
-        background-image: none, none;
+        background-image: none;
         background-color: rgb(253, 87, 87);
     }
 }
