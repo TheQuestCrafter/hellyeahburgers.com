@@ -27,10 +27,12 @@
     </social>
   </socials>
 
-  <description>Hell Yeah Burgers is a VR game!</description>
+  <description>Hell Yeah Burgers is a fast-paced game about cooking and serving up delicious burgers in VR. 
+  Under the guidance of professional chef Gianna Remy, you'll take orders, prepare ingrediants, and put your skills to the test.
+  </description>
 
-  <!-- Choose between a single block: -->
-  <history></history>
+  <!-- Choose between a single block: 
+  <history></history> -->
 
   <!-- Or multiple blocks: -->
   <!--
@@ -54,15 +56,14 @@
   </trailers>
 
  <widgets>
-    <mailchimp>http://eepurl.com/gS3iNj&amp;id=gS3iNj</mailchimp>
+    <mailchimp>gS3iNj</mailchimp>
     <!--<itch>27992</itch>-->
   </widgets>
 
   <additionals>
     <additional>
       <title>GitHub</title>
-      <description></description>
-      <link></link>
+      <link>https://github.com/CalvinOh/Cooking_VR/wiki</link>
     </additional>
   </additionals>
 
@@ -74,6 +75,36 @@
       <!-- Optional: -->
       <website>charlie.games</website>
     </credit>
+
+    <credit>
+      <person>Calvin Oh</person>
+      <role>Programmer</role>
+
+      <!-- Optional: -->
+      <website>https://calvinoh.weebly.com/</website>
+    </credit>
+
+    <credit>
+      <person>Keegan Jennings</person>
+      <role>Programmer</role>
+    </credit>
+
+    <credit>
+      <person>Person 2</person>
+      <role>Programmer</role>
+
+      <!-- Optional: -->
+      <website>google.com</website>
+    </credit>
+
+    <credit>
+      <person>Person 2</person>
+      <role>Programmer</role>
+
+      <!-- Optional: -->
+      <website>google.com</website>
+    </credit>
+
     <credit>
       <person>Person 2</person>
       <role>Programmer</role>

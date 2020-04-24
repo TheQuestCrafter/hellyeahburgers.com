@@ -15,6 +15,7 @@ body{
     background-repeat: repeat;
     background-position: top;
     background-size: 100%;
+   /* background-color: white;*/
 }
 
 a{
@@ -57,7 +58,7 @@ h1{
 }
 
 h2{   
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -66,7 +67,7 @@ h3{
     text-align: center;
 }
 
-div .patty, div .top-bun, div .pickles, div .lettuce{
+div .patty, div .top-bun, div .pickles, div .lettuce, div .nav-section, div .cheese{
     margin-bottom: 20px;
 }
 
@@ -86,7 +87,7 @@ footer{
 }
 
 .burger-container{
-    max-width: 40%;
+    max-width: 50%;
     margin: auto;
     margin-top: 2em;
 }
@@ -135,9 +136,15 @@ footer{
     max-width: 20%;
 }
 
+.social-links li{
+    border: 1px solid red;
+}
+
 .social-section img{
     max-width: 50px;
     height: 50px;
+    padding-right: 10px;
+    padding-top: 15px;
 }
 
 /*Div Shapes*/
