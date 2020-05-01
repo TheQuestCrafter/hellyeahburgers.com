@@ -69,6 +69,14 @@
 
   <credits>
     <credit>
+      <person>Alex Gallanis</person>
+      <role>Artist</role>
+
+      <!-- Optional: -->
+      <website>https://gallanisalex.weebly.com/</website>
+    </credit>
+
+    <credit>
       <person>Charlie Phillips</person>
       <role>Marketing/PR</role>
 
@@ -90,27 +98,35 @@
     </credit>
 
     <credit>
-      <person>Person 2</person>
-      <role>Programmer</role>
+      <person>Zoey Reyes</person>
+      <role>Narrative and UX Designer</role>
 
       <!-- Optional: -->
-      <website>google.com</website>
+      <website>http://www.zrgamedesign.com/</website>
     </credit>
 
     <credit>
-      <person>Person 2</person>
-      <role>Programmer</role>
+      <person>Jiening Tao</person>
+      <role>Designer and Programmer</role>
 
       <!-- Optional: -->
-      <website>google.com</website>
+      <website>https://github.com/JieningTao</website>
     </credit>
 
     <credit>
-      <person>Person 2</person>
+      <person>Pedro Tresgallo</person>
       <role>Programmer</role>
 
       <!-- Optional: -->
-      <website>google.com</website>
+      <website>https://pedroalonsotresgallo.com/</website>
+    </credit>
+
+    <credit>
+      <person>Victoria Zeilenga</person>
+      <role>Artist</role>
+
+      <!-- Optional: -->
+      <website>https://vzeilenga.weebly.com/</website>
     </credit>
   </credits>
 
