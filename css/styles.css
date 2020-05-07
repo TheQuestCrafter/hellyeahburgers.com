@@ -79,14 +79,16 @@ h3{
     text-align: center;
 }
 
-div .patty, div .top-bun, div .pickles, div .lettuce, div .nav-section, div .cheese, div .bottom-bun{
+div .patty, div .top-bun, div .pickle, div .tomato, div .lettuce, div .cheese, div .bottom-bun{
     margin-bottom: 20px;
 
     /* Position and center the image to scale nicely on all screens */   
 	background-position: center;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
+    position: relative;
+ 
+    border: 1px solid blue;
 }
 
 footer{
@@ -138,7 +140,6 @@ footer{
 .pickles{
     display: flex;
     justify-content: space-evenly;
-    align-items: center; 
 }
 
 .description-section{
@@ -211,6 +212,10 @@ footer{
 }
 
 .pickle{
+    height: 300px;
+    background-image: url('../assets/burger/pickle.png');
+
+    /*
     background-color: green;
     border: 2px solid black;
     width: 20%;
@@ -218,9 +223,15 @@ footer{
     margin-left: auto;
     margin-right: auto;
     display: block;
+*/
 }
 
 .tomato{
+
+    height: 300px;
+    background-image: url('../assets/burger/tomato.png');
+
+    /*
     background-color: rgb(231, 74, 74);
     border: 2px solid black;
     width: 40%;
@@ -228,6 +239,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    */
 }
 
 .cheese{
