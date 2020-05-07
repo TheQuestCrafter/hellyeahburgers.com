@@ -2,7 +2,6 @@
 <company>
   <title>Hell Yeah, Burgers! VR</title>
   <based-in>Chicago, IL</based-in>
-  <founding-date></founding-date>
   <website>http://www.hellyeahburgers.com</website>
 
   <press-contact>
@@ -31,29 +30,22 @@
   Under the guidance of professional chef Gianna Remy, you'll take orders, prepare ingrediants, and put your skills to the test.
   </description>
 
-  <!-- Choose between a single block: 
-  <history></history> -->
 
-  <!-- Or multiple blocks: -->
-  <!--
-  <histories>
-    <history>
-      <header></header>
-      <text></text>
-    </history>
-  </histories>
-  -->
+  <history>Founded in Chicago, IL in 2019 by students at Columbia College Chicago!</history>
+
+  <projects>
+
+  </projects>
+ 
 
   <trailers>
     <trailer>
       <name></name>
-
-      <!-- Pick one: -->
       <youtube>
-        <!-- Video ID only, not the full URL -->
       </youtube>
     </trailer>
   </trailers>
+   -->
 
  <widgets>
     <mailchimp>gS3iNj</mailchimp>
