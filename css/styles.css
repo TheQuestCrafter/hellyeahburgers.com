@@ -35,7 +35,7 @@ a:visited{
 
 p{
     padding-left: 1em;
-    font-size: 1rem;
+    font-size: 100%;
 }
 
 ul{
@@ -244,6 +244,23 @@ and (min-width : 832px) and (max-width : 1100px){
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 831px){
     
+    .top-bun{
+        height: 400px;
+    }
+
+    .patty{
+        padding-top: 80px;
+        height: 200px;
+    }
+
+    .onion{
+        height: 180px;
+    }
+
+    .bottom-bun{
+        height: 200px;
+    }
+
     .burger-container{
         max-width: 95%;
     }
