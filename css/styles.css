@@ -233,12 +233,17 @@ and (min-width : 1101px) and (max-width : 1300px){
 @media only screen 
 and (min-width : 832px) and (max-width : 1100px){
 
+    p{
+        font-size: 2rem;
+        color: white;
+    }
+
     h1{
         font-size: 8vw;
     }
 
     h2{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .burger-container{
@@ -248,6 +253,30 @@ and (min-width : 832px) and (max-width : 1100px){
     body{
         background-image: none;
         background-color: rgb(253, 87, 87);
+    }
+
+    .top-bun{
+        min-height: 350px;
+    }
+
+    .bottom-bun{
+        margin-top: 20px;
+        min-height: 200px;
+    }
+    
+    .patty{
+        padding: 20px;
+        min-height: 200px;
+    }
+
+    .social-links{
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .onion{
+        min-height: 200px;
+        background-image: none;
     }
 
 }
@@ -326,7 +355,7 @@ and (min-width : 832px) and (max-width : 1100px){
 
     .bottom-bun{
         display: block;
-        height: 100px;
+        height: fit-content;
         border-radius: 60% 60% 20% 20% / 30% 30% 50% 50%;
     }
 
