@@ -64,10 +64,6 @@ h1{
    
 }
 
-.title{
- 
-}
-
 h2{   
     font-size: 1.5rem;
     text-align: center;
@@ -75,11 +71,12 @@ h2{
 }
 
 h3{
-    font-size: 1rem;
+    padding: 10px;
+    font-size: 100%;
     text-align: center;
 }
 
-div .patty, div .top-bun, div .pickle, div .tomato, div .lettuce, div .cheese, div .bottom-bun{
+div .patty, div .top-bun, div .pickle, div .tomato, div .lettuce, div .cheese, div .bottom-bun, div .onion{
     margin-bottom: 20px;
 
     /* Position and center the image to scale nicely on all screens */   
@@ -87,14 +84,18 @@ div .patty, div .top-bun, div .pickle, div .tomato, div .lettuce, div .cheese, d
     background-repeat: no-repeat;
 	background-size: cover;
     position: relative;
- 
-    border: 1px solid blue;
 }
 
 footer{
     margin-top: 1em;
     text-align: center;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 /*SECTIONS*/
 
@@ -112,7 +113,7 @@ footer{
 }
 
 .title-section{
-    padding-top: 100px;
+    position: relative;
     text-align: center;
 }
 
@@ -129,7 +130,11 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
-    /*height: 200px;*/
+    margin-bottom: 20px;
+}
+
+.big-media{
+    margin-bottom: 20px;
 }
   
   .gif-section>div {
@@ -144,6 +149,10 @@ footer{
 
 .description-section{
     padding: 10px;
+}
+
+.social-links{
+    padding-top: 5%;
 }
 
 .social-links ul{
@@ -167,87 +176,44 @@ footer{
     padding-top: 50px;
     height: 150px;
     background-image: url('../assets/burger/pattythin.png');
-
-    /*
-	-moz-border-radius: 20px;
-   -webkit-border-radius: 20px;
-   -khtml-border-radius: 20px;
-   border-radius: 20px;
-
-   background-color: rgb(138, 99, 51);
-   border: 3px solid black;
-   */
 }
 
-.lettuce {
-	-moz-border-radius: 20px;
-   -webkit-border-radius: 20px;
-   -khtml-border-radius: 20px;
-   border-radius: 20px;
-
-   background-color: rgb(152, 255, 138);
+.outline {
    border: 3px solid black;
 }
 
 .top-bun{
-
-    height: 300px;
+    height: 280px;
     background-image: url('../assets/burger/topbun.png');
-
-    /*
-    border-radius: 50% 50% 50% 50% / 60% 60% 30% 30%;
-    background-color: #F2A950;
-    border: 3px solid black; */
 }
 
 .bottom-bun{
-    
-    height: 350px;
-    background-image: url('../assets/burger/bottombun.png');
-    
-    /*
-    border-radius: 60% 60% 20% 20% / 30% 30% 50% 50%;
-    background-color: #F2A950;
-    border: 3px solid black; */
+    height: 150px;
+    background-image: url('../assets/burger/bottombun.png');  
 }
 
 .pickle{
-    height: 300px;
+    height: 60px;
+    min-width: 200px;
     background-image: url('../assets/burger/pickle.png');
-
-    /*
-    background-color: green;
-    border: 2px solid black;
-    width: 20%;
-    border-radius: 100px / 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-*/
 }
 
 .tomato{
-
-    height: 300px;
+    width: 350px;
+    height: 80px;
     background-image: url('../assets/burger/tomato.png');
-
-    /*
-    background-color: rgb(231, 74, 74);
-    border: 2px solid black;
-    width: 40%;
-    border-radius: 100px / 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    */
 }
 
 .cheese{
-    background-color: rgb(255, 208, 0);
-    border: 3px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    height: 80px;
+    background-image: url('../assets/burger/cheese2.png');
+}
+
+.onion{ 
+    padding-top: 25px;
+    min-width: 500px;
+    height: 140px;
+    background-image: url('../assets/burger/onion.png');
 }
 
 /*MEDIA QUERIES*/
